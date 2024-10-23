@@ -25,7 +25,8 @@ navbar-links:
   Resources:
     - Curriculum vitae: "cv"
     - Awards: "awards"
-    - Publications: "publications"    
+    - Publications: "publications"
+    - Press releases: "press_releases"
   Software: "software"
   "": "2024-04-30-SMART"
 
