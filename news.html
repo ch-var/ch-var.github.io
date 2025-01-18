@@ -10,10 +10,30 @@ mathjax: true
 <p>
 <i style="color:#808080";>Posted on October 21, 2024</i>
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
   <img src="/assets/img/press.png" alt="image" style="max-width: 200px; height: auto; margin-right: 20px;"/>
   <p style="text-align: justify; flex: 1;">I am thankful for the press release in Phys.org, entitled “Astronomers explore the properties of an obscured hyperluminous quasar”. I am thankful for the press release in Phys.org, entitled “Astronomers explore the properties of an obscured hyperluminous quasar”.</p>
 </div>
+
+<style>
+  /* For smaller screens like mobile */
+  @media (max-width: 600px) {
+    div {
+      flex-direction: column; /* Stack the image and text vertically */
+      align-items: flex-start; /* Align items to the left */
+    }
+
+    img {
+      margin-right: 0; /* Remove the right margin on small screens */
+      margin-bottom: 10px; /* Add some space between the image and text */
+    }
+
+    p {
+      text-align: left; /* Left-align text for better readability on mobile */
+    }
+  }
+</style>
+
 <br>
 <hr width="100%" size="2"> 
 <br>
