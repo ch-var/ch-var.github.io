@@ -46,8 +46,8 @@ body {
   flex-direction: column;
   margin-left: 0;  /* Remove default left margin */
   margin-right: 0; /* Remove default right margin */
-  padding-left: 10px; /* Optional: reduce the left padding */
-  padding-right: 10px; /* Optional: reduce the right padding */
+  padding-left: 1px; /* Optional: reduce the left padding */
+  padding-right: 1px; /* Optional: reduce the right padding */
 }
 body > main {
   flex: 1;
