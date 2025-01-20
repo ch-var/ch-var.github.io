@@ -31,6 +31,7 @@ html {
 }
 
 body {
+  margin: 0 1rem;
   font-family: var(--body-font);
   font-size: 1.125rem;
   color: var(--text-col);
