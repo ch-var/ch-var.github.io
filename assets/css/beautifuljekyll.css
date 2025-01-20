@@ -31,8 +31,8 @@ html {
 }
 
 body {
-  padding: 0 10px; 
-  margin: 0 auto; 
+  padding: 0 30px; 
+  margin: 0 30px; 
   max-width: 100%;
   font-family: var(--body-font);
   font-size: 1.125rem;
