@@ -3,21 +3,35 @@ layout: page
 title: Welcome!
 ---
 <style>
+p, h3, ul {
+    margin-left: -50px;
+    margin-right: -50px;
+    text-align: justify; /* Justify-align text */
+}
+
+/* Media query for devices with width up to 600px (portrait mode) */
+@media only screen and (max-width: 600px) {
+    p, h3, ul {
+        margin-left: 0; 
+        margin-right: 0; 
+    }
+}
+
+/* Media query for devices with width between 600px and 900px (landscape mode on small screens) */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    p, h3, ul {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
+
+/* Media query for devices with width over 900px (larger screens) */
+@media only screen and (min-width: 901px) {
     p, h3, ul {
         margin-left: -50px;
         margin-right: -50px;
-        text-align: justify; /* Justify-align text */
     }
-    
-    /* Media query for devices with width up to 600px */
-    @media only screen and (max-width: 600px) {
-        p, h3, ul {
-            margin-left: 10px;
-            margin-right: 10px;
-            padding-left: 10px;
-            padding-right: 10px;
-        }
-    }
+}
 </style>
 
 <p>My name is <b>Charalambia Varnava</b> and I am a passionate <b>researcher</b>, blending <b>computational and applied mathematics</b>, as well as <b>galaxy evolution</b>. My research has led to publications in prestigious journals, as well as international press releases.</p>
