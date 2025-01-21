@@ -2,24 +2,25 @@
 layout: page
 title: Welcome!
 ---
-<style>
-    @media (max-width: 768px) {
-        p {
-            margin-left: -50px;
-            margin-right: -50px;
-        }
-    }
-
-    @media (max-width: 480px) {
-        p {
-            margin-left: 0;
-            margin-right: 0;
-        }
-    }
-</style>
-
 <p style="text-align: justify; margin-left: -150px; margin-right: -150px;">My name is <b>Charalambia Varnava</b> and I am a passionate <b>researcher</b>, blending <b>computational and applied mathematics</b>, as well as <b>galaxy evolution</b>. My research has led to publications in prestigious journals, as well as international 
 press releases.</p>
+
+<style>
+  /* Apply negative margins on large screens (desktop) */
+  p {
+    margin-left: -150px;
+    margin-right: -150px;
+  }
+
+  /* Adjust for smaller screens using a media query */
+  @media only screen and (max-width: 768px) {
+    p {
+      margin-left: 10%;
+      margin-right: 10%;
+      text-align: left; /* or 'center' if you prefer */
+    }
+  }
+</style>
 
 <p align="center">
 <img src="/assets/img/photo.jpg" width="20%" height="20%">
