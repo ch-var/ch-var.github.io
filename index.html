@@ -46,7 +46,7 @@ press releases.</p>
 <style>
 /* Media query for devices with width up to 600px (portrait mode) */
 @media only screen and (max-width: 600px) {
-    p, h3, ul, title {
+    p, h3, ul {
         margin-left: 0; 
         margin-right: 0;
         padding-left: 100px; 
@@ -59,11 +59,15 @@ press releases.</p>
         margin-left: auto;
         margin-right: auto;
     }    
+    /* Center the title (h1) */
+    h1 {
+        text-align: center;
+    }    
 }
 
 /* Media query for devices with width between 600px and 900px (landscape mode on small screens) */
 @media only screen and (min-width: 601px) and (max-width: 900px) {
-    p, h3, ul, title {
+    p, h3, ul {
         margin-left: 0;
         margin-right: 0;
         padding-left: 100px; 
@@ -75,6 +79,10 @@ press releases.</p>
         display: block;
         margin-left: 0;
         margin-right: 0;
+    } 
+    /* Center the title (h1) */
+    h1 {
+        text-align: center;
     }    
 }  
 </style>
