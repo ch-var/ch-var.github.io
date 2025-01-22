@@ -2,14 +2,39 @@
 layout: page
 title: Software
 ---
+
+<style>
+  /* Reduce margins by 50px on desktop screens */
+  @media (min-width: 768px) {
+    body {
+      margin-left: -50px;  /* Reduce the left margin by 50px */
+      margin-right: -50px; /* Reduce the right margin by 50px */
+    }
+
+    .content {
+      max-width: 100%;  /* Allow the content to expand across the available space */
+      padding-left: 15px;  /* Optional padding for content */
+      padding-right: 15px; /* Optional padding for content */
+    }
+  }
+
+  /* Keep the default margins on mobile screens */
+  @media (max-width: 767px) {
+    body {
+      margin-left: 20px;  /* Default margin for mobile */
+      margin-right: 20px; /* Default margin for mobile */
+    }
+  }
+</style>
+
 <p align="center">
-<img src="/assets/img/SMART_logo.png">
+  <img src="/assets/img/SMART_logo.png">
 </p>  
 
 <p align='justify'><b>SMART</b> (<b>S</b>pectral energy distributions <b>M</b>arkov chain <b>A</b>nalysis with <b>R</b>adiative <b>T</b>ransfer models) is a publicly available open-source spectral energy distribution (SED) fitting code. Implementing a Bayesian Markov chain Monte Carlo (MCMC) method, <b>SMART</b> fits the ultraviolet to millimetre SEDs of galaxies exclusively with radiative transfer models that currently constitute four types of pre-computed libraries, which describe the starburst, active galactic nucleus (AGN) torus, host galaxy and polar dust components.</p>
 
 <p align="center">
-<img src="/assets/img/IRAS07598+6508_CYGNUS.png" width="60%" height="60%">
+  <img src="/assets/img/IRAS07598+6508_CYGNUS.png" width="60%" height="60%">
 </p>
 
 <p align='justify'><b>SMART</b> promises to be a useful tool for studying galaxy evolution in the <i>JWST</i> era. The code is developed in PYTHON and is available on the <a href="https://www.ascl.net/2406.003">Astrophysics Source Code Library</a> (ASCL) or on <a href="https://github.com/ch-var/SMART">GitHub</a>.</p>
