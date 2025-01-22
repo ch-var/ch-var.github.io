@@ -2,6 +2,24 @@
 layout: page
 title: Welcome!
 ---
+<style>
+  /* Reduce margins of paragraphs on desktop screens */
+  @media (min-width: 768px) {
+    p {
+      margin-left: -100px;  /* Reduce the left margin for paragraphs */
+      margin-right: -100px; /* Reduce the right margin for paragraphs */
+    }
+  }
+
+  /* Keep default margins on mobile screens */
+  @media (max-width: 767px) {
+    p {
+      margin-left: 0;  /* Default left margin for paragraphs */
+      margin-right: 0; /* Default right margin for paragraphs */
+    }
+  }
+</style>
+
 <p align='justify'>My name is <b>Charalambia Varnava</b> and I am a passionate <b>researcher</b>, blending <b>computational and applied mathematics</b>, as well as <b>galaxy evolution</b>. My research has led to publications in prestigious journals, as well as international 
 press releases.</p>
 
@@ -9,7 +27,7 @@ press releases.</p>
 <img src="/assets/img/photo.jpg" width="20%" height="20%">
 </p>
 
-<h3>About me</h3>
+<p style="font-weight: bold; font-size: 30px;">About me</p>
 
 <p align='justify'>The last years I worked as a Researcher at Aristarchus Research Center of European University Cyprus. I also worked as a Scientific Collaborator at the Department of Computer Science and Engineering of European University Cyprus, being an instructor for Statistics I and Business Statistics. I previously worked as a Post-Graduate Researcher at the In-Silico Modelling Group of the Department of Mechanical and Manufacturing Engineering of the University of Cyprus.</p>
 
@@ -27,18 +45,16 @@ press releases.</p>
 
 <p align='justify'>Additionally, I am a founding member of Women in Mathematical Sciences in Cyprus (WMSC).</p>
 
-<p align='justify'>My research interests span across several disciplines in theoretical and applied sciences, more specifically in:</p>
+<p align='justify'>My research interests span across several disciplines in theoretical and applied sciences, more specifically in:
 
-<ul>
-<li>Computational mathematics</li>
+<p align='justify'>Computational mathematics</li>
 
-<li>MCMC model fitting</li>
+<p align='justify'>MCMC model fitting</p>
 
-<li>Bayesian inference</li>
+<p align='justify'>Bayesian inference</p>
 
-<li>Differential equations</li>
+<p align='justify'>Differential equations</p>
 
-<li>SED fitting</li>
+<p align='justify'>SED fitting</p>
 
-<li>Finite element method</li>
-</ul>
+<p align='justify'>Finite element method</p>
