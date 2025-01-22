@@ -2,6 +2,24 @@
 layout: page
 title: Press Releases
 ---
+<style>
+  /* Reduce margins of paragraphs on desktop screens */
+  @media (min-width: 768px) {
+    p {
+      margin-left: -100px;  /* Reduce the left margin for paragraphs */
+      margin-right: -100px; /* Reduce the right margin for paragraphs */
+    }
+  }
+
+  /* Keep default margins on mobile screens */
+  @media (max-width: 767px) {
+    p {
+      margin-left: 0;  /* Default left margin for paragraphs */
+      margin-right: 0; /* Default right margin for paragraphs */
+    }
+  }
+</style>
+
 <p align="center">
 <a href="https://phys.org/news/2024-10-astronomers-explore-properties-obscured-hyperluminous.html">
 <img src="/assets/img/press.png" width="80%" height="80%">
