@@ -24,7 +24,7 @@ navbar-links:
   News: "news"
   Resources:
     - Curriculum vitae: "cv"
-    - Awards: "awards"
+    - Honors and Awards: "awards"
     - Publications: "publications"
     - Press releases: "press_releases"
   Software: "software"
