@@ -1,0 +1,36 @@
+---
+layout: page
+---
+<style>
+  /* Reduce margins of paragraphs on desktop screens */
+  @media (min-width: 768px) {
+    p {
+      margin-left: -100px;  /* Reduce the left margin for paragraphs */
+      margin-right: -100px; /* Reduce the right margin for paragraphs */
+    }
+  }
+
+  /* Keep default margins on mobile screens */
+  @media (max-width: 767px) {
+    p {
+      margin-left: 0;  /* Default left margin for paragraphs */
+      margin-right: 0; /* Default right margin for paragraphs */
+    }
+  }
+</style>
+
+<p style="margin-bottom: 8px; font-family: var(--header-font); font-weight: 800; line-height: 1.1; font-size: 1.875rem; margin-top: 1.25rem;">Our research article featured amongst the most-read recent articles in Monthly Notices of the Royal Astronomical Society</p>
+<p style="margin-top: 8px; margin-bottom: 8px;"><font size="+2">According to Oxford University Press</font></p>
+<p><i style="color:#808080;">Posted on May 2, 2025</i></p>
+
+<p align='justify'>I am excited to share that our research article “SMART: Spectral Energy Distributions Markov Chain Analysis with Radiative Transfer Models” is among the most-read recent articles in the Monthly Notices of the Royal Astronomical Society, according to Oxford University Press. I am grateful for the interest in our work and thrilled to see the <b>SMART</b> methodology gaining recognition in the astrophysical community.</p>
+
+<p align="center">
+<img src="/assets/img/SMART_reads.png">
+</p>  
+
+<p align='justify'>The article is available at <a href="https://doi.org/10.1093/mnras/stae1141">https://doi.org/10.1093/mnras/stae1141</a>.</p> 
+
+<p align="center">
+<img src="/assets/img/SMART_logo.png" width="50%" height="50%">
+</p>
