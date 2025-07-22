@@ -13,6 +13,11 @@ title: Media Coverage
 
   /* Keep default margins on mobile screens */
   @media (max-width: 767px) {
+    div {
+      flex-direction: column; /* Stack the image and text vertically */
+      align-items: flex-start; /* Align items to the left */
+    }
+    
     p {
       margin-left: 0;  /* Default left margin for paragraphs */
       margin-right: 0; /* Default right margin for paragraphs */
@@ -20,7 +25,8 @@ title: Media Coverage
   }
 </style>
 
-<p style="display: grid; grid-template-columns: repeat(2, 1fr); column-gap: 15px; row-gap: 30px; max-width: 700px; margin: auto;">
+<p align="center">
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); column-gap: 15px; row-gap: 30px; max-width: 700px; margin: auto;">
   <a href="https://phys.org/news/2024-10-astronomers-explore-properties-obscured-hyperluminous.html">
     <img src="/assets/img/press1.png" style="width: 100%; height: auto;">
   </a>
@@ -33,6 +39,7 @@ title: Media Coverage
   <a href="https://paideia-news.com/panepistimio-frederick/2024/11/11/ereynitria-toy-eyropaikoy-panepistimioy-meleta-ena-protogono-yperfoteino-kbazar">
     <img src="/assets/img/press4.png" style="width: 100%; height: auto;">
   </a>
+</div>
 </p>
 <br>
 <p align="center">By <a href="https://phys.org/news/2024-10-astronomers-explore-properties-obscured-hyperluminous.html">Phys.org</a>, <a href="https://skycr.org/2024/10/2/exploran-las-propiedades-de-un-cuasar-hiperluminoso-oscurecido/">Skycr.org</a>, <a href="https://pcnews.ru/news/astronomy_obnaruzili_sverhmassivnuu_cernuu_dyru_v_centre_galaktiki_cos_87259-1530160.html#gsc.tab=0">Pcnews.ru</a>, <a href="https://paideia-news.com/panepistimio-frederick/2024/11/11/ereynitria-toy-eyropaikoy-panepistimioy-meleta-ena-protogono-yperfoteino-kbazar">Paideia-news.com</a> and <a href="https://www.cna.org.cy/press-release/article/7556971/anakoinosi-typoy-evropaiko-panepistimio-kyproy">Cna.org.cy</a></p>
