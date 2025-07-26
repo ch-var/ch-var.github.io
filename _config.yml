@@ -23,7 +23,7 @@ navbar-links:
   Home: "home"
   News: "news"
   Resources:
-    - Curriculum vitae: "cv"
+    - Curriculum vitae: "CV"
     - Honors & Awards: "honors_awards"
     - Publications: "publications"
     - Media coverage: "media_coverage"
