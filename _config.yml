@@ -20,7 +20,7 @@ author: © Charalambia Varnava
 ###############################################
 
 navbar-links:
-  Home: ""
+  Home: "/"
   News: "news"
   Resources:
     - Curriculum vitae: "CV"
