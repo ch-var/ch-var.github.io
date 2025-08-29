@@ -5,13 +5,13 @@ title: Media Coverage
 <style>
   /* Reduce margins of paragraphs on desktop screens */
   @media (min-width: 768px) {
-    p {
+    p, hr {
       margin-left: -100px;  /* Reduce the left margin for paragraphs */
       margin-right: -100px; /* Reduce the right margin for paragraphs */
     }
   }
 
-  /* Keep default margins on mobile screens */
+  /* For smaller screens like mobile */
   @media (max-width: 767px) {
     div {
       flex-direction: column; /* Stack the image and text vertically */
@@ -22,13 +22,14 @@ title: Media Coverage
       margin-right: 0; /* Remove the right margin on small screens */
       margin-bottom: 1px; /* Add some space between the image and text */
     }
-    
-    p {
+
+    p, hr {
+      text-align: left; /* Left-align text for better readability on mobile */
       margin-left: 0;  /* Default left margin for paragraphs */
       margin-right: 0; /* Default right margin for paragraphs */
     }
   }
-</style>
+</style>  
 
 <br>
 <p align="center">
