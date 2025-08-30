@@ -3,40 +3,51 @@ layout: page
 title: Media Coverage 
 ---
 <style>
-  /* Reduce margins of paragraphs on desktop screens */
+  /* Reduce margins on desktop screens */
   @media (min-width: 768px) {
     p, hr {
-      margin-left: -100px;  /* Reduce the left margin for paragraphs */
-      margin-right: -100px; /* Reduce the right margin for paragraphs */
+      margin-left: -100px;
+      margin-right: -100px;
+    }
+
+    /* Apply same margins to the grid container */
+    .grid-container {
+      margin-left: -100px;
+      margin-right: -100px;
     }
   }
 
   /* Keep default margins on mobile screens */
   @media (max-width: 767px) {
     p, hr {
-      margin-left: 0;  /* Default left margin for paragraphs */
-      margin-right: 0; /* Default right margin for paragraphs */
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .grid-container {
+      margin-left: 0;
+      margin-right: 0;
     }
   }
 </style>
 
 <br>
 <p align="center">
-<a href="https://scisimple.com/en/articles/2025-07-27-introducing-smart-a-new-tool-for-galaxy-analysis--akg507q">
-<img src="/assets/img/SMART_coverage.png" width="50%" height="auto">
-</a>
+  <a href="https://scisimple.com/en/articles/2025-07-27-introducing-smart-a-new-tool-for-galaxy-analysis--akg507q">
+    <img src="/assets/img/SMART_coverage.png" width="50%" height="auto">
+  </a>
 </p>  
 <p align="center">By <a href="https://scisimple.com/en/articles/2025-07-27-introducing-smart-a-new-tool-for-galaxy-analysis--akg507q">Simple Science</a></p>
 
 <hr size="2">
 
 <br>
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 30px; row-gap: 30px; align-items: center;">
+<div class="grid-container" style="display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 30px; row-gap: 30px; align-items: center;">
   <a href="https://phys.org/news/2024-10-astronomers-explore-properties-obscured-hyperluminous.html">
     <img src="/assets/img/press1.png" style="width: 100%; height: auto;">
   </a>
   <a href="https://manhattantribune.com/astronomers-explore-the-properties-of-a-dark-hyperluminous-quasar/">
-  <img src="/assets/img/press5.png" style="width: 100%; height: auto;">
+    <img src="/assets/img/press5.png" style="width: 100%; height: auto;">
   </a>
   <a href="https://skycr.org/2024/10/21/exploran-las-propiedades-de-un-cuasar-hiperluminoso-oscurecido/">
     <img src="/assets/img/press2.png" style="width: 100%; height: auto;">
@@ -51,4 +62,12 @@ title: Media Coverage
     <img src="/assets/img/press4.png" style="width: 100%; height: auto;">
   </a>
 </div>
-<p align="center">By <a href="https://phys.org/news/2024-10-astronomers-explore-properties-obscured-hyperluminous.html">PHYS.ORG</a>, <a href="https://manhattantribune.com/astronomers-explore-the-properties-of-a-dark-hyperluminous-quasar/">Manhattan Tribune</a>, <a href="https://skycr.org/2024/10/21/exploran-las-propiedades-de-un-cuasar-hiperluminoso-oscurecido/">skyCR</a>, <a href="https://pcnews.ru/news/astronomy_obnaruzili_sverhmassivnuu_cernuu_dyru_v_centre_galaktiki_cos_87259-1530160.html#gsc.tab=0">pcnews</a>, <a href="https://ab-news.ru/astronomy-issleduyut-svojstva-skrytogo-sverhyarkogo-kvazara/">ab-news.ru</a> and <a href="https://paideia-news.com/panepistimio-frederick/2024/11/11/ereynitria-toy-eyropaikoy-panepistimioy-meleta-ena-protogono-yperfoteino-kbazar">παιδείαnews</a></p>
+
+<p align="center">
+  By <a href="https://phys.org/news/2024-10-astronomers-explore-properties-obscured-hyperluminous.html">PHYS.ORG</a>, 
+  <a href="https://manhattantribune.com/astronomers-explore-the-properties-of-a-dark-hyperluminous-quasar/">Manhattan Tribune</a>, 
+  <a href="https://skycr.org/2024/10/21/exploran-las-propiedades-de-un-cuasar-hiperluminoso-oscurecido/">skyCR</a>, 
+  <a href="https://pcnews.ru/news/astronomy_obnaruzili_sverhmassivnuu_cernuu_dyru_v_centre_galaktiki_cos_87259-1530160.html#gsc.tab=0">pcnews</a>, 
+  <a href="https://ab-news.ru/astronomy-issleduyut-svojstva-skrytogo-sverhyarkogo-kvazara/">ab-news.ru</a> and 
+  <a href="https://paideia-news.com/panepistimio-frederick/2024/11/11/ereynitria-toy-eyropaikoy-panepistimioy-meleta-ena-protogono-yperfoteino-kbazar">παιδείαnews</a>
+</p>
