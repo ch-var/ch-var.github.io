@@ -22,7 +22,7 @@ author: © Charalambia Varnava
 navbar-links:
   Home: "/"
   News: "news"
-  Resources:
+  Profile:
     - Curriculum vitae: "CV"
     - Honors & Awards: "honors_awards"
     - Publications: "publications"
