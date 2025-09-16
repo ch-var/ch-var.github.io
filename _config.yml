@@ -21,12 +21,12 @@ author: © Charalambia Varnava
 
 navbar-links:
   Home: "/"
-  News: "news"
   Profile:
     - Curriculum vitae: "CV"
     - Honors & Awards: "honors_awards"
     - Publications: "publications"
     - Media coverage: "media_coverage"    
+  News: "news"    
   Software: "software"
 
 ################
